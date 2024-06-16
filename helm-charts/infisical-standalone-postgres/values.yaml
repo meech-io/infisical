@@ -42,6 +42,10 @@ ingress:
     #   hosts:
     #     - some.domain.com
 
+service:
+  type: LoadBalancer
+  port: 8080
+
 postgresql:
   enabled: true
   name: "postgresql"
